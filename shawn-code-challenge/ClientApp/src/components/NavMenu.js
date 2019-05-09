@@ -8,7 +8,7 @@ export default props => (
   <Navbar inverse fixedTop fluid collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <Link to={'/'}>shawn_code_challenge</Link>
+        <Link to={'/'}>ReactReduxIntergration</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

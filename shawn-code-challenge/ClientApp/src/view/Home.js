@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import LinkInput from './LinkInput';
-import LinkTable from './LinkTable';
+import LinkInput from '../components/LinkInput';
+import LinkTable from '../components/LinkTable';
 import { bindActionCreators } from 'redux';
 import { actionCreators } from '../store/WeatherForecasts';
 
