@@ -38,7 +38,7 @@ namespace ReactReduxIntergration.Controllers
             return returnedString;
         }
 
-        [HttpGet("[action]")]
+        [HttpDelete]
         public IEnumerable<LinkProperty> LinksDelete(string linkUrl)
         {
             var removeTarget = returnedString.Find(x => x.LinkUrl == linkUrl);

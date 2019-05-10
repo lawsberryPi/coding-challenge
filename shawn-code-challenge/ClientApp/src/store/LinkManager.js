@@ -24,7 +24,7 @@ export const actionCreators = {
     },
     deleteLink: linkToDelete => async (dispatch, getState) => {
         const passLinkUrl = linkToDelete.linkUrl;
-        axios.get(`api/Links/LinksDelete?linkUrl=${passLinkUrl}`)
+        axios.delete(`api/Links/LinksDelete?linkUrl=${passLinkUrl}`)
             .then(response => {
                 const receivedLinks = response.data;
                 dispatch({ type: recieveLinks, receivedLinks });
