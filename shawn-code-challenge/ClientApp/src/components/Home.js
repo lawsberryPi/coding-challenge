@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import LinkInput from './LinkInput';
 import LinkTable from './LinkTable';
-import { bindActionCreators } from 'redux';
-import { actionCreators } from '../store/WeatherForecasts';
 
 class Home extends Component{
   componentWillMount(){
@@ -12,7 +10,7 @@ class Home extends Component{
   render(){
     return(
       <div>
-        <h1>Grow the web with referrals</h1>
+        <h1>FORD CVPP TEAM</h1>
         <LinkInput/>
         <LinkTable/>
       </div>
