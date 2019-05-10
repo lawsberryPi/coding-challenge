@@ -19,8 +19,8 @@
     - The disadvatange for asp.net is there is not too much third party support, not as convenient as Python frameworks, you just need to use pip to manage the packages
 - Anything you left out, or what you might do differently if you were to spend additional time on the project.
   - I didn't have enough time to do the unit test.
--	Link to the hosted application (where applicable).
-  - https://shawn-code-challenge20190509092616.azurewebsites.net/ 
+- Link to the hosted application (where applicable).
+    - https://shawn-code-challenge20190509092616.azurewebsites.net/ 
 
 #### Deployment Choice
 
