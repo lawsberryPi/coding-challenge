@@ -1,8 +1,8 @@
-
+##### Shawn's solution for Ambassador Coding Challenge
 #### Code Discription
 
 ###	Description of the problem and solution.
-This problem is a typical CRUD problem, the backend is 
+This problem is a typical CRUD problem, user can manage their referral links using this portal easily. 
 -	Whether the solution focuses on back-end, front-end, full stack, or mobile.
 -	Reasoning behind your technical choices, including architecture.
 -	Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
