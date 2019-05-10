@@ -5,7 +5,7 @@
 - This problem is a typical CRUD problem
   - The RESTful application need to be able to handle HTTP GET, POST and DELETE requests.
   - The front-end makes requests and parse the response data from backend, it should be intuitive, responsive.
-  - The back-end should be able to handle create, read, update and delete operations. Sort data, manipulate data.
+  - The back-end should be able to handle create, read, update and delete logic operations. Store data, manipulate data. It also exposes the following endpoints: GET/, POST/, DELETE/
 - Whether the solution focuses on back-end, front-end, full stack, or mobile.
   - The solution is focused on full stack. 
   - I have implemented all the requred features including add, edit, delete columns, sort table, and redirect to links, I also have a home button in the navigator, so user can navigate back to the main page.
