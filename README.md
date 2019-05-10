@@ -11,6 +11,7 @@
   - The solution is focuses on full stack.
   
 -	Reasoning behind your technical choices, including architecture.
+  - Front end: I chose React & Redux which is recommanded by Ambassador, and I am also pretty familar with it. On top of it, I used Material UI to create beautiful and responsive UI. I really like react and react & redux, because they makes the state predictable
 -	Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
 -	Link to the hosted application (where applicable).
 
