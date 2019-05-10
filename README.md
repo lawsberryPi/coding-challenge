@@ -2,10 +2,10 @@
 #### Code Discription
 
 ###	Description of the problem and solution.
-* This problem is a typical CRUD problem, user can manage their referral links using this portal easily. 
-  **The api need to be able to handle HTTP GET, POST and DELETE requests.
-  -The front end should be intuitive, responsive and be able to perform table sorting. 
-  -The back end should be able to handle create, read, update and delete operations.
+- This problem is a typical CRUD problem, user can manage their referral links using this portal easily. 
+  - The api need to be able to handle HTTP GET, POST and DELETE requests.
+  - The front end should be intuitive, responsive and be able to perform table sorting. 
+  - The back end should be able to handle create, read, update and delete operations.
   
 -	Whether the solution focuses on back-end, front-end, full stack, or mobile.
   - The solution is focuses on full stack.
