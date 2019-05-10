@@ -28,6 +28,6 @@
 https://shawn-code-challenge20190509092616.azurewebsites.net/ is my link, I have deployed on Azure. The reason is I had no time to learn how to deploy ASP.NET core on Heroku; This week was not a good week for me,we had a Ford vice-president level leader visiting our team, and we had to demo our works to the leadership, I had a lots of overtime. But I do have an unfinished project that is deployed in Heroku
 
 ## Show us your other projects! (optional)
-a website I am trying to build for my fiance, just started it.
+A website I am trying to build for my fiance, just started it.
 https://lit-cove-89268.herokuapp.com/
 It is supposed to be a E-commerce page to promote her design shop, the project is written in node.js and vue.js
