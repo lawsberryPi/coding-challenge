@@ -7,7 +7,7 @@
   - The front end should be intuitive, responsive and be able to perform table sorting. 
   - The back end should be able to handle create, read, update and delete operations.
 - Whether the solution focuses on back-end, front-end, full stack, or mobile.
-  - The solution is focuses on full stack. 
+  - The solution is focused on full stack. 
 -	Reasoning behind your technical choices, including architecture.
     - Architecture: ASP.NET MVC(model–view–controller) is a RESTful framework, Model represents shape of the data and business logic, it is a C# class in our application; View is a user interface, it is implemented by React & Redux; Controller handles the user request, the class inherites .NET MVC Controller class so the framework handles requests for you. MVC is a loosely coupled framework therefore it is easy to write unit test. Another reason I chose ASP.NET core because I did't have enough time to learn Django REST api and I am most familiar with C#, thus I was able to develop the Referral Application rapidly.
     - View(React&Redux): I chose React & Redux which is recommanded by Ambassador, and I am also pretty familar with it. On top of it, I used Material UI to create a beautiful and responsive UI. I really like react and react & redux, because they makes the state predictable; it is easy to maintain, because the heavy logics are in mutation and dispatch. it is also easy to test, we can call the mutation and dispatch from unit test code easily. I used AXIOS to implement the fully RESTful architecture, it handles httpGet, httpPost, and httpDelete, and it is promise-based. The returned json data is processed in the promise delegation.
