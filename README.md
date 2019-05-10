@@ -1,7 +1,8 @@
 
 #### Code Discription
 
--	Description of the problem and solution.
+###	Description of the problem and solution.
+This problem is a typical CRUD problem, the backend is 
 -	Whether the solution focuses on back-end, front-end, full stack, or mobile.
 -	Reasoning behind your technical choices, including architecture.
 -	Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
@@ -9,13 +10,14 @@
 
 This will give us insight into how you approached the challenge.
 
-### Deployment
+#### Deployment
 
-When you're done, please deploy your project to [Heroku](https://dashboard.heroku.com). You may deploy to another service (such as AWS), but please include your reasoning behind this choice. Afterward, send a link to your repo. If you have chosen to make your repo private, please add `jarell-lloyd` and `fieldsco` as an admin so we can see your work.
+https://shawn-code-challenge20190509092616.azurewebsites.net/ is my link, I have deployed on Azure. This week was not a good week for me,
+we have a Ford vice president level leader to visit our team, and we had to perform a demostration, I had a lots of overtime, so I had no time to learn Heroku deployment.
 
 ## Show us your other projects! (optional)
-
-If you have existing code that you would like to share, please follow these guidelines:
+a website I am trying to build for my fiance, just started it.
+https://lit-cove-89268.herokuapp.com/
 
 -	Include a link to the repository in the README file that is part of your coding challenge submission
 -	A description of what the code does
