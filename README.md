@@ -14,9 +14,11 @@
     - Controller(C#): In MVC framework the controller has The Select Tag Helper [HttpPost],  [HttpGet], [HttpDelete] to receive the http requests. The data is stored in a static list in my controller, due to the time limit, I had no time to setup a database. I use Linq to query the data, because it is very easy to use, it integrats query capabilities directly into the C# language. As a part of MVC All the data type are managed in the Model class. 
     - Model(C#): Since it is a small project, so the Model class is relative simple, just keep in track with the LinkUrl and count the clicks.  
   
--	Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
+-	Trade-offs you might have made
     - First of all, the trade off for using ASP.NET MVC is the techology is not used by Ambassador.
     - The disadvatange for asp.net is there is not too much third party support, not as convenient as Python frameworks, you just need to use pip to manage the packages
+- Anything you left out, or what you might do differently if you were to spend additional time on the project.
+  - I didn't have enough time to do the unit test.
 -	Link to the hosted application (where applicable).
   - https://shawn-code-challenge20190509092616.azurewebsites.net/ 
 
