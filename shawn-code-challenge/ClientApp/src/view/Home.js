@@ -11,7 +11,7 @@ class Home extends Component{
   render(){
     return(
       <div>
-        <h1>FORD CVPP TEST CASE MANAGEMENT</h1>
+        <h1>Grow the web with referrals</h1>
         <LinkInput/>
         <LinkTable/>
       </div>

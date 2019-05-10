@@ -7,7 +7,8 @@ class LandingPage extends Component{
     render(){
       return(
         <div>
-            <h1> {this.props.linkDirectory} HELLO </h1>
+            <h1> {this.props.linkDirectory} are Awesome!</h1>
+            <h3>Shawn would like to join Tim's World Wide Web!</h3>
         </div>
       )
     }
