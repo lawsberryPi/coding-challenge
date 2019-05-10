@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shawn-code-challenge", "shawn-code-challenge\shawn-code-challenge.csproj", "{059BD0A1-BF3C-48A7-906F-14F989994D2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shawn-code-challenge", "shawn-code-challenge\shawn-code-challenge.csproj", "{059BD0A1-BF3C-48A7-906F-14F989994D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestShawnCodeChanllenge", "XUnitTestShawnCodeChanllenge\XUnitTestShawnCodeChanllenge.csproj", "{74640D74-87C5-47B9-BDBB-4DB15731957B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{059BD0A1-BF3C-48A7-906F-14F989994D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059BD0A1-BF3C-48A7-906F-14F989994D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059BD0A1-BF3C-48A7-906F-14F989994D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74640D74-87C5-47B9-BDBB-4DB15731957B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74640D74-87C5-47B9-BDBB-4DB15731957B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74640D74-87C5-47B9-BDBB-4DB15731957B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74640D74-87C5-47B9-BDBB-4DB15731957B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
