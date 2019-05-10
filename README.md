@@ -17,6 +17,7 @@
   
 -	Trade-offs you might have made
     - First of all, the trade off for using ASP.NET MVC is the techology is not used by Ambassador.
+    - there is no authentication in the application, anybody can edit or delete or add a link.
     - The disadvatange for asp.net is there is not too much third party support or libraries, not as convenient as Python frameworks, you just need to use pip to manage the packages
 - Anything you left out, or what you might do differently if you were to spend additional time on the project.
   - I didn't have enough time to do the unit test.
