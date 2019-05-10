@@ -12,7 +12,7 @@ This will give us insight into how you approached the challenge.
 
 #### Deployment
 
-https://shawn-code-challenge20190509092616.azurewebsites.net/ is my link, I have deployed on Azure. This week was not a good week for me,
+https://shawn-code-challenge20190509092616.azurewebsites.net/ is my link, I have deployed on Azure. The reason is I had no time to learn deploy ASP.NET core on Heroku; This week was not a good week for me,
 we have a Ford vice president level leader to visit our team, and we had to perform a demostration, I had a lots of overtime, so I had no time to learn Heroku deployment.
 
 ## Show us your other projects! (optional)
