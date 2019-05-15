@@ -22,6 +22,7 @@ class LinkTable extends Component {
         this.onUpdateValue = this.onUpdateValue.bind(this);
         this.handleRequestSort = this.handleRequestSort.bind(this);
         this.getSorting = this.getSorting.bind(this);
+        this.isValidLink = this.isValidLink.bind(this);
         this.desc = this.desc.bind(this);
     }
     state={
@@ -32,16 +33,16 @@ class LinkTable extends Component {
     componentWillMount() {
         // at the init stage we need to request
         // the links first
-        this.props.requestLink(null);
+        this.props.requestLink();
     }
     handleChange = editingValues => event => {
         this.setState({
-          [editingValues]: event.target.value,
+            [editingValues]: event.target.value
         });
       };
     onStartEditing(targetLink){
         this.setState({
-            ["editingValues"]: targetLink,
+            ["editingValues"]: targetLink
         });
     }
     onRedirectoryClick(event) {
@@ -53,9 +54,20 @@ class LinkTable extends Component {
     onStartEditLink(event) {
         this.props.startEditLink(event);
     }
-    onUpdateValue(oldValue){
-        const newValue = this.state.editingValues
-        this.props.updateEditLink(oldValue, newValue)
+    onUpdateValue(oldValue) {
+        if (this.state.editingValues === "") {
+            alert("url can not be empty");
+            return;
+        }
+        if (this.isValidLink(this.state.editingValues)) {
+            alert("special character is detected, url might not be supported");
+            return null;
+        }
+        const newValue = this.state.editingValues;
+        this.props.updateEditLink(oldValue, newValue);
+    }
+    isValidLink(str) {
+        return /[~`#%\^+=\-\[\]\\';,/{}|\\:<>\?]/g.test(str);
     }
 
     handleRequestSort = (event) => {
@@ -67,8 +79,7 @@ class LinkTable extends Component {
         }
     
         this.setState({ order, orderBy });
-      };
-
+    };
       desc(a, b, orderBy) {
         if (b[orderBy] < a[orderBy]) {
           return -1;

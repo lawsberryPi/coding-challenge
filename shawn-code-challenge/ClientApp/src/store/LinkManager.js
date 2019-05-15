@@ -1,15 +1,16 @@
 import axios from 'axios';
-const addLinkType = 'ADD_LINK_TYPE'
-const editLinkType = 'EDIT_LINK_TYPE'
-const updateLinkType = 'UPDATE_LINK_TYPE'
-const recieveLinks = 'REVIEVE_LINK'
-const redirectLink = 'REDIRECT_LINK'
-const initialState = { linksList: [], linkDirectory: null }
+const addLinkType = 'ADD_LINK_TYPE';
+const editLinkType = 'EDIT_LINK_TYPE';
+const updateLinkType = 'UPDATE_LINK_TYPE';
+const recieveLinks = 'REVIEVE_LINK';
+const redirectLink = 'REDIRECT_LINK';
+const initialState = { linksList: [], linkDirectory: null };
 
 export const actionCreators = {
     // when user refresh or add a link
     requestLink: linkString => async (dispatch, getState) => {
         const url = `api/Links/LinksManager?linkUrl=${linkString}`;
+        console.log(linkString, "this is request link...");
         const response = await fetch(url);
         const receivedLinks = await response.json();
         dispatch({ type: recieveLinks, receivedLinks });

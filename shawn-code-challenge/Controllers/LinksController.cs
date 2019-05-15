@@ -20,8 +20,10 @@ namespace ReactReduxIntergration.Controllers
         [HttpGet("[action]")]
         public IEnumerable<LinkProperty> LinksManager(string linkUrl)
         {
-            if (linkUrl != "null")
+            if (linkUrl != null && linkUrl!="undefined")
             {
+                var index = returnedString.FindIndex(urlObj => urlObj.LinkUrl == linkUrl);
+                if (index != -1) return returnedString;
                 LinkProperty newEntry = new LinkProperty(linkUrl, 0);
                 returnedString.Add(newEntry);
                 System.Console.WriteLine(linkUrl);
@@ -50,8 +52,11 @@ namespace ReactReduxIntergration.Controllers
         public IEnumerable<LinkProperty> LinksUpdate(string urlUpdates)
         {
             LinkEditProperty updateUrl = JsonConvert.DeserializeObject<LinkEditProperty>(urlUpdates);
-            var index = returnedString.FindIndex(urlObj => urlObj.LinkUrl == updateUrl.OldUrl);
-            if (index > -1) returnedString[index].LinkUrl = updateUrl.NewUrl;
+            if(updateUrl.NewUrl!=null && updateUrl.NewUrl != "")
+            {
+                var index = returnedString.FindIndex(urlObj => urlObj.LinkUrl == updateUrl.OldUrl);
+                if (index > -1) returnedString[index].LinkUrl = updateUrl.NewUrl;
+            }
             return returnedString;
         }
     }

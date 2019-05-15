@@ -18,14 +18,22 @@ class LinkInput extends Component{
         // This binding is necessary to make `this` work in the callback
         this.onAddLinkHandler = this.onAddLinkHandler.bind(this);
         this.handleChange = this.handleChange.bind(this);
+        this.isValidLink = this.isValidLink.bind(this);
         }
 
     handleChange(event) {
         this.setState({linkValue: event.target.value});
         }
     onAddLinkHandler(){
-        console.log("add link is clicked")
+        if (this.isValidLink(this.state.linkValue)) {
+            alert("special character is detected, url might not be supported");
+            return null;
+        }
         this.props.requestLink(this.state.linkValue);
+        this.state.linkValue = '';
+    }
+    isValidLink(str) {
+        return /[~`#%\^+=\-\[\]\\';,/{}|\\:<>\?]/g.test(str);
     }
     render() {
         return(
